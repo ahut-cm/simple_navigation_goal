@@ -1,0 +1,34 @@
+ <launch>
+ 
+  <node name="send_goal2" pkg="simple_navigation_goals" type="send_goal2">
+
+
+    <param name="pose_AMCL_Point_x" type="double" value= " -0.141"/>
+    <param name="pose_AMCL_Point_y" type="double" value= " 2.324"/>
+    <param name="pose_AMCL_Point_z" type="double" value= "0.0"/>
+    <param name="pose_AMCL_orientation_x" type="double" value= "0.0"/>
+    <param name="pose_AMCL_orientation_y" type="double" value= "0.0"/>
+    <param name="pose_AMCL_orientation_z" type="double" value= "-0.780"/>
+    <param name="pose_AMCL_orientation_w" type="double" value= "0.626"/>
+
+    <param name="pose_GOAL_1_Point_x" type="double" value= "3.998"/>
+    <param name="pose_GOAL_1_Point_y" type="double" value= "-1.605"/>
+    <param name="pose_GOAL_1_Point_z" type="double" value= "0.0"/>
+    <param name="pose_GOAL_1_orientation_x" type="double" value= "0.0"/>
+    <param name="pose_GOAL_1_orientation_y" type="double" value= "0.0"/>
+    <param name="pose_GOAL_1_orientation_z" type="double" value= "-0.795"/>
+    <param name="pose_GOAL_1_orientation_w" type="double" value= " 0.606"/>
+
+
+    <param name="pose_GOAL_2_Point_x" type="double" value= "6.408"/>
+    <param name="pose_GOAL_2_Point_y" type="double" value= "-2.113"/>
+    <param name="pose_GOAL_2_Point_z" type="double" value= "0.0"/>
+    <param name="pose_GOAL_2_orientation_x" type="double" value= "0.0"/>
+    <param name="pose_GOAL_2_orientation_y" type="double" value= "0.0"/>
+    <param name="pose_GOAL_2_orientation_z" type="double" value= "-0.795"/>
+    <param name="pose_GOAL_2_orientation_w" type="double" value= "-1.839"/>
+
+  </node>
+
+
+  </launch>
